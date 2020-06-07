@@ -180,7 +180,7 @@
 
 - 使用 chrome 的配置文件如下：
 
-- ```json
+- ```javascript
     // Karma configuration
     // Generated on Mon Jun 01 2020 22:57:07 GMT+0800 (GMT+08:00)
     
@@ -363,7 +363,7 @@
 
 - 需要配置一个 mochaRunner.js (里面写你的测试代码)
 
-- ```json
+- ```javascript
   const Mocha = require('mocha')
   const mocha = new Mocha({
       reporter: 'mochawesome',
