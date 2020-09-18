@@ -275,32 +275,7 @@
   ```
 
 #### UI自动化
-
-- Visual Inspector这个chrome插件可以对比UI
-
-- 可以用 `phantomCSS` 截图抓图比图，可以在无头浏览器里面游走
-
-- 我们安装一个 backstopjs `sudo npm install -g backstopjs` 这里容易安装不上，尝试各种 比如 cnpm 或者 yarn，我是通过切换源唯taobao安装上的
-
-- 然后执行 `backstop init`命令，就会在工程中生成一个文件夹 `backstop_data/engine_scripts` 以及 一个 backstop.json  `backstop_data/engine_scripts/casper` 表示的就是在无头浏览器里面操作鼠标，里面的`backstop_data/engine_scripts/cookies.json` 是可以注入 cookie 的，因为有些网站需要cookie，因为有些网站需要 登陆的。
-
-- 我们在 backstop_data 目录下建立一个 bitmaps_reference 文件夹，这个文件夹是 拿来放 美工UI的图的，
-
-- ```javascript
-    "paths": {
-      "bitmaps_reference": "backstop_data/bitmaps_reference",// 美工图
-      "bitmaps_test": "backstop_data/bitmaps_test",// 测试图
-      "engine_scripts": "backstop_data/engine_scripts",// 引擎
-      "html_report": "docs/backstop_data/html_report",// 报表
-      "ci_report": "docs/backstop_data/ci_report"// ci 报表
-    },
-    "report": ["browser"],// 放浏览器里面去跑
-    "engine": "puppeteer", // 引擎，因为 phantomjs 已经停止维护了，现在的js无头浏览器 puppeteer是第一
-  ```
-
-- 然后执行 `backstop test` 就会生成报告文件，我们将ui的图放在 backstop_data/bitmaps_reference里面，再重新运行 backstop test 就会得到 ui 自动化的测试结果，`backstop test` 命令容易卡住，多尝试一下
-
-
+- 待补充
 
 #### service端测试（接口测试）
 
