@@ -60,7 +60,6 @@
   - 这里我选择 jasmine ，接着`Do you want to use Require.js ?`选择 `no`
   - 接着是选择浏览器(无头浏览器，就是没有GUI界面的浏览器) 也可以选择 Chrome
     - Chrome ChromeHeadless ChromeCanary Firefox Safari PhantomJS Opera IE
-  - 这里我们选择 PhantomJS 回车，`What is the location of your source and test files ?`再回车，`Should any of the files included by the previous patterns be excluded ?`再回车，`Do you want Karma to watch all the files and run the tests on change ?` 选择 `yes` 回车
 
 - 看见`Config file generated at "/Users/qitmac000352/Documents/admin/yideng/2018.11.06/qatest/my.conf.js".`就表示 karma 的基本配置文件就已经生成了 
 
