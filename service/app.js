@@ -3,7 +3,7 @@ const app = new Koa();
 
 app.use(async ctx => {
   if (ctx.path === '/test') {
-    const res = {data: 'Hello World1'}
+    const res = {data: 'Hello World'}
     ctx.body = res;
   }
 })
